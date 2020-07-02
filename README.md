@@ -12,4 +12,17 @@ usar o git reset --mixed - precisa commitar novamente dar o add
 usar o git reset --hard - remove tudo e volta ao estado anterior sem necessidade de modificar arquivos
 usar o git reset -hard nimero do log do commt enterior
 
- teste esta mensaggem devera sumir
+TRABALHANDO COM DIFERENTES BRANCH
+git branch - mostrao todos os gits em que eu estou
+git branch novo branch - este é o comando para criar novo branch
+git checkout " nome do branch". ex git checkout teste - vai para o branch teste
+COMO SABER AS DIFERENÇAS DOS ARQUIVOS AINDA NÃO ADD AO COMMIT NO COMPUTADOR
+POIS O STATUS INDICA APENAS OS ARQUIVOS MODIFICADOS, SEM RELATAR QUAIS AS ALTERAÇÕES FEITAS NOS MESMOS
+USA-SE O GIT DIFF - lista as modificaçoe nos arquivos a serem comitados
+git diff --name-only - mostra qual o arquivo modificado
+git dif"nome do arquivo que foi alterado, mostra as alterações naquele arquivo especifico
+por exemplo git diff README.md - mostra as alterações no README
+git chackout HEAD --README.md - retorna ao estado anterior das alterações neste arquivo e depois pode se fazer add e commit paar os outros arquivos
+
+ teste esta mensaggem devera 
+ 
