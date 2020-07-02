@@ -22,7 +22,16 @@ USA-SE O GIT DIFF - lista as modificaçoe nos arquivos a serem comitados
 git diff --name-only - mostra qual o arquivo modificado
 git dif"nome do arquivo que foi alterado, mostra as alterações naquele arquivo especifico
 por exemplo git diff README.md - mostra as alterações no README
-git chackout HEAD --README.md - retorna ao estado anterior das alterações neste arquivo e depois pode se fazer add e commit paar os outros arquivos
-
- teste esta mensaggem devera 
+git chackout HEAD -- README.md - retorna ao estado anterior das alterações neste arquivo e depois pode se fazer add e commit paar os outros arquivos
  
+ CRANDO UM REPOSITORIO NO GIT HUB
+ssh-keygen -t rsa -b 4096 -C "totpoa@gmail.com"
+git remote add origin https://github.com/totpoa/primeirogit.git
+gerar chave  no bash - usar codigo
+para carregar
+git push -u origin master
+ chave do repositorio
+ (/c/Users/gracianerodrigues/.ssh/id_rsa):
+ COMO ATUALIZAR ALTERAÇÕES DO PC PARA O GIT
+ 
+
