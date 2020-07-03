@@ -33,5 +33,20 @@ git push -u origin master
  chave do repositorio
  (/c/Users/gracianerodrigues/.ssh/id_rsa):
  COMO ATUALIZAR ALTERAÇÕES DO PC PARA O GIT
- 
+ C:\wamp64\www\modulogit>
+COMO SELECIONAR ARQUIVOS QUE NÃO DEVEM IR NO PUSH
+criar arquivo git ignore e colocar la os arquivos que não deves subir para o git
+REVERTENDO SEM PERDER O CODIGO
+ao inves do reset, voe volta ao que era antes, e corrige osarquivos defeituosos e faz novo push, para isto faz o git log, pega o codigo da alteração e da um git revert 
+git revert --no-edit= codigo do log daquele comit que quer revereter
+isto apenas desabilita  o comit, masa ele continua para que possamos trabalhar nele e corrigir o codigo
+DELETANDO BRANCHS LOCAIS E REMOTOS
+git puxh origin :teste
+isto remove o branch teste do git hub
+PARA DELETAR UM BANCH LOCAL, PREMEIRO PRECISA SAIR DESTE BRANCH, USE CHECKOUT
+	git branch -D teste - remove localmente o branch teste
+	PUCHANDO ALTERAÇÕES DE OUTRAS PESSOAS
+	PULLING DE ARCHIVE
+	
+
 
